@@ -550,6 +550,7 @@ ol {
 }
 
 .event__item__text p {
+	font-family: "Montserrat Regular";
 	color: #888888;
 	margin-bottom: 0;
 }
@@ -832,6 +833,7 @@ ol {
 
 .countdown {
 	padding-bottom: 560px;
+	font-family: "Montserrat Regular";
 }
 
 .countdown.countdown--page {
@@ -866,6 +868,7 @@ ol {
 }
 
 .countdown__item {
+	font-family: "Montserrat Regular";
 	display: inline-block;
 	margin-right: 80px;
 	margin-bottom: 30px;
@@ -877,7 +880,7 @@ ol {
 
 .countdown__item span {
 	font-size: 90px;
-	font-family: "Rajdhani", sans-serif;
+	font-family: "";
 	font-weight: 700;
 	color: #ffffff;
 	display: block;
@@ -885,6 +888,7 @@ ol {
 }
 
 .countdown__item p {
+	font-family: "Montserrat", sans-serif;
 	color: #ffffff;
 	letter-spacing: 4px;
 	text-transform: uppercase;

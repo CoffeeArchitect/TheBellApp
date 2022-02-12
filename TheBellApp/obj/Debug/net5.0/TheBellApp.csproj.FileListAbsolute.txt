@@ -9,7 +9,6 @@ C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\bin\Debug\net5.0\ref\TheBellA
 C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\bin\Debug\net5.0\TheBellApp.pdb
 C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\bin\Debug\net5.0\TheBellApp.Views.dll
 C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\bin\Debug\net5.0\TheBellApp.Views.pdb
-C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\obj\Debug\net5.0\TheBellApp.csproj.AssemblyReference.cache
 C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\obj\Debug\net5.0\TheBellApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\obj\Debug\net5.0\TheBellApp.AssemblyInfoInputs.cache
 C:\Users\Sergey\source\repos\TheBellApp\TheBellApp\obj\Debug\net5.0\TheBellApp.AssemblyInfo.cs
