@@ -3,21 +3,24 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@ViewData["Title"] - TheBellApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" />*@
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Play:wght@700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Play:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
     <!-- Out Styles -->
-    <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="~/css/nowfont.css" type="text/css">
-    <link rel="stylesheet" href="~/css/rockville.css" type="text/css">
-    <link rel="stylesheet" href="~/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="~/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="~/css/style.css" type="text/css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/barfiller.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/nowfont.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/montserrat.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/comforter.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/magnific-popup.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/slicknav.min.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/style.css" type="text/css"/>
 </head>
 <body>
     <!-- Page Preloder -->
@@ -57,7 +60,6 @@
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +67,9 @@
             <div id="mobile-menu-wrap"></div>
         </div>
     </header>
-    <div class="container">
+    
+   
+    <div @*class="container"*@>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -73,38 +77,37 @@
 
     <!-- Footer Section Begin -->
     <footer class="footer spad set-bg" data-setbg="img/footer-bg.png">
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer__address">
-                        <ul>
-                            <li>
+                        <ul style="font-family: Montserrat; font-weight: 300">
+                            <li >
                                 <i class="fa fa-phone"></i>
-                                <p>Phone</p>
-                                <h6>1-677-124-44227</h6>
+                                <p >Контактный номер</p>
+                                <h6>8-800-124-44227</h6>
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i>
                                 <p>Email</p>
-                                <h6>DJ.Music@gmail.com</h6>
+                                <h6>bell@gmail.com</h6>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 col-md-6">
                     <div class="footer__social">
-                        <h2>DJoz</h2>
+                        <h2>THE BELL</h2>
                         <div class="footer__social__links">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1 col-md-6">
                     <div class="footer__newslatter">
-                        <h4>Stay With me</h4>
+                        <h4>ОСТАВИТЬ ОТЗЫВ</h4>
                         <form action="#">
                             <input type="text" placeholder="Email">
                             <button type="submit"><i class="fa fa-send-o"></i></button>
@@ -112,11 +115,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            
 			<div class="footer__copyright__text">
-				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+				<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> 
 			</div>
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			
         </div>
     </footer>
     <!-- Footer Section End -->

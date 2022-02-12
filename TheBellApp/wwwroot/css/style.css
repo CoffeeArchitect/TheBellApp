@@ -3,7 +3,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Now Regular";
+	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -383,17 +383,18 @@ ol {
 	letter-spacing: 6px;
 }
 
-.hero__text h1 {
-	font-size: 110px;
-	font-family: "Rockville Solid Regular";
-	color: #ffffff;
-	margin-bottom: 20px;
-	margin-top: 22px;
-}
+	.hero__text h1 {
+		font-size: 110px;
+		font-family: "Comforter Regular";
+		color: #ffffff;
+		margin-bottom: 20px;
+		margin-top: 22px;
+	}
 
 .hero__text p {
 	color: #ffffff;
 	margin-bottom: 20px;
+	font-family: "Montserrat Regular"
 }
 
 .hero__text .play-btn {
@@ -846,14 +847,14 @@ ol {
 .countdown__text h1 {
 	font-size: 90px;
 	color: #ffffff;
-	font-family: "Rockville Solid Regular";
+	font-family: "Comforter Regular";
 	color: #ffffff;
 	margin-bottom: 25px;
 }
 
 .countdown__text h4 {
 	font-size: 26px;
-	font-family: "Now Regular";
+	font-family: "Montserrat Regular";
 	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 4px;
@@ -1027,6 +1028,7 @@ ol {
 	color: #ffffff;
 	opacity: 0.7;
 	margin-bottom: 8px;
+	font-family: "Montserrat";
 }
 
 .footer__address ul li h6 {
@@ -1202,35 +1204,46 @@ ol {
 
 .about {
 	padding-top: 0;
+	font-family: "Montserrat Regular";
 }
 
 .about.about--page {
 	padding-top: 80px;
 	padding-bottom: 80px;
+	font-family: "Montserrat Regular";
 }
 
 .about.about--page .section-title {
 	margin-bottom: 28px;
+	font-family: "Montserrat Regular";
 }
 
 .about.about--page .section-title h2 {
 	line-height: 55px;
+	font-family: "Montserrat Regular";
+
 }
 
 .about.about--page .about__text {
 	padding-top: 15px;
+	font-family: "Montserrat Regular";
+
 }
 
 .about.about--page .about__text p {
 	color: #111111;
+	font-family: "Montserrat", sans-serif;
+
 }
 
 .about__text {
 	padding-top: 110px;
+	font-family: "Montserrat Regular";
 }
 
 .about__text p {
 	margin-bottom: 35px;
+	font-family: "Montserrat Regular";
 }
 
 /*---------------------
