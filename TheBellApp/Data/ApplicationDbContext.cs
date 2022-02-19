@@ -11,5 +11,6 @@ namespace TheBellApp.Data
         }
 
         public DbSet<Category> Category { get; set; }
+        public DbSet<Event> Event { get; set; }
     }
 }
